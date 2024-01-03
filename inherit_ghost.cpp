@@ -58,3 +58,17 @@ int main(){
     //CONTRADICTION OCCUR
     s1.display();//here index 0 start from RIGHT 
 }
+
+/*
+stack : < -- 
+0 0 0 0 0 63 
+stack : < -- 
+0 0 0 0 13 63 
+stack : < -- 
+0 0 0 23 13 63 
+stack : < -- 
+0 0 33 23 13 63 
+stack : < -- 
+20 0 33 23 13 63 
+Array destroyed
+*/

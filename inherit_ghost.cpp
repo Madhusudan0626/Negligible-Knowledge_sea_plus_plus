@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 //when to use private or protected inheritance
 
 class Array{
